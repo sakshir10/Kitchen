@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Cafe Shop</title>
     <style>
         body{
@@ -27,6 +29,12 @@
             width:180px;
             border-radius: 30px;
             cursor:pointer;
+            box-shadow: 1px 1px 1px 1px white;
+            
+            
+        }
+        .btn:hover{
+            box-shadow:1.5px 1.5px 1.5px 1.5px darkblue;
         }
 
     </style>
@@ -36,8 +44,10 @@
         Welcome to Sakshi's Cafe
     </h1>
     <div class="btn-container">
-        <button class="btn">Explore Menu</button>
-        <button  class="btn">Contact Us</button>
+        <a href="./pages/menu.html">
+        <button class="btn">Explore Menu</button></a>
+        <a href="./pages/contact.html">
+        <button  class="btn">Contact Us</button></a>
     </div>
 </body>
 </html>

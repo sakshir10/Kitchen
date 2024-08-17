@@ -1,0 +1,29 @@
+body{
+    background-color: #fec7d7;
+}
+.heading{
+    color:#0e172c;
+    text-align: center;
+    font-size: 40px;
+    margin:50px auto;
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+
+}
+.btn{
+    background-color: #0e172c;
+    color:#fffffe;
+    margin:0 30px;
+    padding: 10px 30px;
+    width:180px;
+    border-radius: 30px;
+    cursor:pointer;
+    box-shadow: 1px 1px 1px 1px white;
+    
+    
+}
+.btn:hover{
+    box-shadow:1.5px 1.5px 1.5px 1.5px darkblue;
+}
