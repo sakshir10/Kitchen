@@ -6,12 +6,13 @@
 
 }
 .why-choose-us-heading{
-    margin:50px 0px;
+    margin-top:70px 10px;
 
 }
 .card{
     background-color: rgb(230, 143, 233);
-    width: 180px;
+    width: 190px;
+    height: 220px;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -20,4 +21,8 @@
     height:60px;
     display: block;
     margin: 10px auto;
+}
+.why-choose-us-container{
+    display: flex;
+    justify-content:space-evenly;
 }
